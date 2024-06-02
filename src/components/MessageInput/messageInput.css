@@ -1,0 +1,19 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.input-field {
+  margin-right: 5px !important;
+  width: 100%;
+}
+
+.send-button {
+  background-color: #124e8a !important;
+}
+
+.send-button:hover {
+  background-color: #0a345d;
+}

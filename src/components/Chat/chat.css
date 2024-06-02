@@ -1,0 +1,37 @@
+.chat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-card {
+  width: 350px;
+  margin-top: 5px;
+}
+
+.chat-header {
+  background-color: #f2f4f7;
+}
+
+.chat-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.chat-title-text {
+  color: #00395c !important;
+}
+
+.avatar {
+  background-color: #124e8a;
+}
+
+.card-content {
+  height: 300px;
+  overflow: auto;
+}
+
+.card-content::-webkit-scrollbar {
+  width: 0px;
+}
