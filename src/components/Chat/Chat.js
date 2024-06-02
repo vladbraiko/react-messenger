@@ -12,7 +12,7 @@ import {
 import MessageInput from '../MessageInput/MessageInput';
 import MessageDisplay from '../MessageDisplay/MessageDisplay';
 import './chat.css';
-
+import logo from '../../assets/logo.png';
 function Chat() {
   return (
     <Box className="chat-container">
@@ -35,11 +35,11 @@ function Chat() {
                 '.MuiBadge-dot': {
                   width: 15,
                   height: 15,
-                  border: '1.5px solid white',
+                  border: '2.5px solid white',
                 },
               }}
             >
-              <Avatar className="avatar">P</Avatar>
+              <Avatar className="avatar" src={logo}></Avatar>
             </Badge>
           }
           className="chat-header"
