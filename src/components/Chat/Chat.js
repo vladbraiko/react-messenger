@@ -21,7 +21,7 @@ function Chat() {
           title={
             <Box className="chat-title">
               <Typography variant="h6" className="chat-title-text">
-                Protolyst
+                Chat
               </Typography>
             </Box>
           }
